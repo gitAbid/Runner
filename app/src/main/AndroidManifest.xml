@@ -10,14 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:windowSoftInputMode="adjustPan|adjustResize">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".auth.AuthActivity">
+        <activity android:name=".feature_module.MainActivity"></activity>
+        <activity android:name=".auth_module.AuthActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
     </application>
 
 </manifest>

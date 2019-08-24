@@ -9,4 +9,8 @@
     <string name="forgot_password_text">Forgot Password?</string>
     <string name="dont_have_account_text">Don\'t have an account?</string>
     <string name="signup_text"> SignUp</string>
+    <string name="dashboard_text">Dashboard</string>
+    <string name="map_text">Map</string>
+    <string name="task_text">Task</string>
+    <string name="chat_text">Chat</string>
 </resources>
