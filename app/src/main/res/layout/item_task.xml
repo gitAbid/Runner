@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen_8dp"
+    android:background="@drawable/grey_border_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ripple_rectangle"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:padding="@dimen/dimen_16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/TextAppearance.MaterialComponents.Headline6"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/dashboard_text" />
+
+            <LinearLayout
+                android:id="@+id/ll_status_container"
+                android:layout_width="@dimen/dimen_0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="30"
+                android:background="@drawable/in_progress_background"
+                android:gravity="center"
+                android:padding="@dimen/dimen_4dp">
+
+                <TextView
+                    android:id="@+id/tv_status_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In Progress"
+                    android:textColor="@color/colorAccent" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_due_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_2dp"
+            android:text="Today • 5:15pm • 1:00 hour"
+            android:textSize="@dimen/dimen_16sp"
+            app:fontFamily="@font/worksans_regular" />
+
+        <TextView
+            android:id="@+id/tv_address_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_2dp"
+            android:text="168/2, Block G, Bashundhara"
+            android:textSize="@dimen/dimen_16sp"
+            app:fontFamily="@font/worksans_regular" />
+
+        <TextView
+            android:id="@+id/tv_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_4dp"
+            android:text="Installation"
+            android:textColor="@color/colorGreen"
+            android:textSize="@dimen/dimen_16sp"
+            app:fontFamily="@font/worksans_regular" />
+
+    </LinearLayout>
+</LinearLayout>

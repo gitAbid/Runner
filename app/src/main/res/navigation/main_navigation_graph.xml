@@ -17,7 +17,7 @@
         tools:layout="@layout/fragment_map" />
     <fragment
         android:id="@+id/taskFragment"
-        android:name="com.example.runner.feature_module.task.TaskFragment"
+        android:name="com.example.runner.feature_module.task.fragments.TaskFragment"
         android:label="fragment_task"
         tools:layout="@layout/fragment_task" />
     <fragment
