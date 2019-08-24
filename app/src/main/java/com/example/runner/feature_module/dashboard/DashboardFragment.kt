@@ -1,4 +1,4 @@
-package com.example.runner.feature_module.fragments
+package com.example.runner.feature_module.dashboard
 
 
 import android.os.Bundle
@@ -8,25 +8,19 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.example.runner.R
-import kotlinx.android.synthetic.main.custom_topbar.*
 
 /**
  * A simple [Fragment] subclass.
  */
-class ChatFragment : Fragment() {
+class DashboardFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_chat, container, false)
+        return inflater.inflate(R.layout.fragment_dashboard, container, false)
     }
 
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-        tvActionBarTitle.text = getText(R.string.chat_text)
-
-    }
 }

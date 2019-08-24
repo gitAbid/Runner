@@ -1,4 +1,4 @@
-package com.example.runner.feature_module.fragments
+package com.example.runner.feature_module.map
 
 
 import android.os.Bundle
@@ -43,9 +43,7 @@ class MapFragment : Fragment(), OnMapReadyCallback {
 
     override fun onMapReady(googleMap: GoogleMap?) {
 
-        if (googleMap != null) {
-            mMap = googleMap
-        }
+        if (googleMap != null) mMap = googleMap
 
         // Add a marker in Sydney and move the camera
         val sydney = LatLng(-34.0, 151.0)

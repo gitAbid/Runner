@@ -7,22 +7,22 @@
 
     <fragment
         android:id="@+id/dashboardFragment"
-        android:name="com.example.runner.feature_module.fragments.DashboardFragment"
+        android:name="com.example.runner.feature_module.dashboard.DashboardFragment"
         android:label="fragment_dashboard"
         tools:layout="@layout/fragment_dashboard" />
     <fragment
         android:id="@+id/mapFragment"
-        android:name="com.example.runner.feature_module.fragments.MapFragment"
+        android:name="com.example.runner.feature_module.map.MapFragment"
         android:label="fragment_map"
         tools:layout="@layout/fragment_map" />
     <fragment
         android:id="@+id/taskFragment"
-        android:name="com.example.runner.feature_module.fragments.TaskFragment"
+        android:name="com.example.runner.feature_module.task.TaskFragment"
         android:label="fragment_task"
         tools:layout="@layout/fragment_task" />
     <fragment
         android:id="@+id/chatFragment"
-        android:name="com.example.runner.feature_module.fragments.ChatFragment"
+        android:name="com.example.runner.feature_module.chat.ChatFragment"
         android:label="fragment_chat"
         tools:layout="@layout/fragment_chat" />
 </navigation>

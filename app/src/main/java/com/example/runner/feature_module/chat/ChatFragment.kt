@@ -1,4 +1,4 @@
-package com.example.runner.feature_module.fragments
+package com.example.runner.feature_module.chat
 
 
 import android.os.Bundle
@@ -13,19 +13,20 @@ import kotlinx.android.synthetic.main.custom_topbar.*
 /**
  * A simple [Fragment] subclass.
  */
-class TaskFragment : Fragment() {
+class ChatFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_task, container, false)
+        return inflater.inflate(R.layout.fragment_chat, container, false)
     }
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        tvActionBarTitle.text = getText(R.string.task_text)
+        tvActionBarTitle.text = getText(R.string.chat_text)
+
     }
 }
