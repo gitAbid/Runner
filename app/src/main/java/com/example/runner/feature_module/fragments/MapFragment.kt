@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 
 import com.example.runner.R
+import kotlinx.android.synthetic.main.custom_topbar.*
 
 /**
  * A simple [Fragment] subclass.
@@ -23,4 +24,9 @@ class MapFragment : Fragment() {
     }
 
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        tvActionBarTitle.text = getText(R.string.map_text)
+
+    }
 }
