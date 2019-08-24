@@ -8,4 +8,17 @@
     tools:context=".feature_module.fragments.DashboardFragment">
 
     <include layout="@layout/custom_topbar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mcvCustomActionBar">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.mapwithmarker.MapsMarkerActivity" />
+    </FrameLayout>
 </RelativeLayout>

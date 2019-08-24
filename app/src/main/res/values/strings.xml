@@ -13,4 +13,5 @@
     <string name="map_text">Map</string>
     <string name="task_text">Task</string>
     <string name="chat_text">Chat</string>
+    <string name="google_maps_key">AIzaSyCJ_f86aOafSUq4LmqJmKi5MZKkywxa1ho</string>
 </resources>
